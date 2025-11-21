@@ -1,7 +1,8 @@
+
 package com.localbiz.model;
 
 /**
- * Represents a User entity
+ * Represents a User entity.
  */
 public class User {
     private String id;
