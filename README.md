@@ -1,4 +1,4 @@
-                    Local Business Support System (Java)
+  Local Business Support System (Java)
 
 The Local Business Support System is a Java-based application designed to help small and medium businesses manage customers, products, orders, and billing efficiently. It demonstrates strong Core Java concepts including OOP, Collections, Generics, JDBC, Exception Handling, Multithreading, and Modular Architecture.
 
