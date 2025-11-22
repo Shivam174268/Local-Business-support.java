@@ -1,82 +1,55 @@
-📌 Local Business Support System (Java)
-A Java-based application designed to help local businesses manage customers, products, orders, and billing in a simple and efficient way.
-This project demonstrates Core Java, OOP, Collections, Generics, JDBC, Exception Handling, Multithreading, and Modular Architecture.
+                    Local Business Support System (Java)
 
-PROJECT STRUCTURE.
-1.The project contains a models package that stores all POJO classes such as Customer, Product, Business, Order, and Bill.
+The Local Business Support System is a Java-based application designed to help small and medium businesses manage customers, products, orders, and billing efficiently. It demonstrates strong Core Java concepts including OOP, Collections, Generics, JDBC, Exception Handling, Multithreading, and Modular Architecture.
 
-2.The services package handles the business logic, including customer management, product processing, ordering, and billing operations.
+📌 Project Structure
 
-3.The dao package manages database operations using JDBC to insert, update, delete, and fetch records.
+1.models – Contains all POJO classes such as Customer, Product, Order, Business, and Bill.
 
-4.The database package provides the JDBC connection setup and handles all database connectivity tasks.
+2.services – Holds business logic for customer management, product operations, order processing, and billing.
 
-5.The exceptions package contains custom exception classes used to manage system and database errors.
+3.dao – Manages database operations (insert, update, delete, fetch) using JDBC.
 
-6.The utils package includes helper classes, such as input validators and ID generators.
+4.database – Provides MySQL JDBC connection setup and connectivity utilities.
 
-7.The controllers package (optional) is used for web-based modules like Servlets and request handling.
+5.exceptions – Contains custom exceptions for handling business and database errors.
 
-8.The resources folder stores configuration files, SQL scripts, and database settings such as application.properties.
+6.utils – Includes helper classes like validators and ID generators.
 
-9.The root directory includes files like README.md, .gitignore, and pom.xml, providing documentation and build configuration.
+7.controllers – (Optional) Used for web modules such as Servlets and request handling.
 
- Features
+8.resources – Stores configuration files, SQL scripts, and application.properties.
 
-1.Manage customers (add, update, view, delete)
+9.root directory – Includes README.md, .gitignore, and pom.xml.
 
-2.Manage products and stock
+🔧 Features
 
-3.Order handling
+1.Customer management — add, update, delete, view
 
-4.Billing generation
+2.Product and stock management
+
+3.Order processing
+
+4.Automated bill generation
 
 5.Business information storage
 
-HOW TO RUN PROJECT
+▶ How to Run
 
-1.Install JDK 17 or higher on your system.
+1.Install JDK 17+ and MySQL Server.
 
-2.Install MySQL Server and make sure it is running.
+2.Create a database named localbusiness and import the SQL script.
 
-3.Create a new database in MySQL named localbusiness.
+3.Open project in IntelliJ / VS Code / Eclipse.
 
-4.Import or execute the SQL table script provided in the project.
+4.Update MySQL credentials in application.properties.
 
-5.Open the project in IntelliJ IDEA, VS Code, or Eclipse.
+5.Ensure MySQL JDBC driver is added (via Maven or manually).
 
-6.Locate and edit the application.properties file to update your MySQL username and password.
-
-7.Ensure the MySQL JDBC driver is added to your project (via Maven or manually).
-
-8.Build the project using Maven or the IDE’s build tool.
-
-9.Run the Main.java file from the com.localbusiness.app package.
-
-10.Use the console or interface to interact with the system and perform business operations.
+6.Build the project and run Main.java.
 
 🛠 Technologies Used
 
-1.Java 17+
+.Java 17+, MySQL, JDBC, Collections, Exception Handling, Multithreading, Maven.
 
-2.MySQL + JDBC
 
-3.Collections Framework
-
-4.Exception Handling
-
-5.Multithreading
-
-6.Maven (optional).
-
-⚙ System Requirements
-
-1.Java JDK 17 or above
-
-2.MySQL Server
-
-3.IntelliJ IDEA / VS Code / Eclipse
-
-4.MySQL JDBC Driver
-
-5.Maven (optional)
