@@ -2,7 +2,7 @@
 
 The Local Business Support System is a Java-based application designed to help small and medium businesses manage customers, products, orders, and billing efficiently. It demonstrates strong Core Java concepts including OOP, Collections, Generics, JDBC, Exception Handling, Multithreading, and Modular Architecture.
 
-📌 Project Structure
+Project Structure
 
 1.models – Contains all POJO classes such as Customer, Product, Order, Business, and Bill.
 
@@ -22,7 +22,7 @@ The Local Business Support System is a Java-based application designed to help s
 
 9.root directory – Includes README.md, .gitignore, and pom.xml.
 
-🔧 Features
+ Features
 
 1.Customer management — add, update, delete, view
 
@@ -34,7 +34,7 @@ The Local Business Support System is a Java-based application designed to help s
 
 5.Business information storage
 
-▶ How to Run
+ How to Run
 
 1.Install JDK 17+ and MySQL Server.
 
@@ -48,7 +48,7 @@ The Local Business Support System is a Java-based application designed to help s
 
 6.Build the project and run Main.java.
 
-🛠 Technologies Used
+ Technologies Used
 
 .Java 17+, MySQL, JDBC, Collections, Exception Handling, Multithreading, Maven.
 
