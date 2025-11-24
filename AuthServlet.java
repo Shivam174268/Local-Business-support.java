@@ -8,7 +8,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 
 /**
- * Servlet to handle user authentication.
+ * Servlet to handle user authentication
  */
 @WebServlet("/login")
 public class AuthServlet extends HttpServlet {
