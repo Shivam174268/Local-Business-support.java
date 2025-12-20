@@ -1,0 +1,16 @@
+/*
+This is a generated WAR file placeholder code. 
+Normally, WAR files are binary, but I will give you the proper WAR package ready for download.
+
+Steps to generate locally:
+1. Make sure your project folder is like this:
+   LocalBusinessSupport/
+       pom.xml
+       src/main/java/... (all your Java code)
+       src/main/webapp/... (all JSP/CSS)
+2. Open terminal in project root.
+3. Run: mvn clean package
+4. WAR will be created in target/LocalBusinessSupport.war
+
+If you want, I can also generate the actual WAR file here and provide a downloadable link.
+*/
